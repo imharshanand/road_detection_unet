@@ -4,7 +4,7 @@ This project implements a road detection system using a UNet model, a type of co
 
 ## Project Structure
 
-- **dataset**: Contains the training, validation, and test images along with their corresponding segmentation masks and lane markings. [Dataset Link](https://github.com/balnarendrasapa/road-detection/raw/master/datasets/dataset.zip)
+- **dataset**: Contains the training, validation, and test images along with their corresponding segmentation masks and lane markings. [Dataset Link (Thanks to https://huggingface.co/bnsapa](https://github.com/balnarendrasapa/road-detection/raw/master/datasets/dataset.zip)
   - **train/**
     - **images/**: Contains the training images.
     - **segments/**: Contains the segmentation masks for training images.
