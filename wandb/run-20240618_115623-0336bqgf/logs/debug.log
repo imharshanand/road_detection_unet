@@ -1,0 +1,62 @@
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Current SDK version is 0.17.2
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Configure stats pid to 22548
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Loading settings from /home/harsh/.config/wandb/settings
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Loading settings from /home/harsh/Downloads/PROJECTS/road_detection_unet/wandb/settings
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_init.py:_log_setup():520] Logging user logs to /home/harsh/Downloads/PROJECTS/road_detection_unet/wandb/run-20240618_115623-0336bqgf/logs/debug.log
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_init.py:_log_setup():521] Logging internal logs to /home/harsh/Downloads/PROJECTS/road_detection_unet/wandb/run-20240618_115623-0336bqgf/logs/debug-internal.log
+2024-06-18 11:56:23,649 INFO    MainThread:22548 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd31beabf70>
+2024-06-18 11:56:23,650 INFO    MainThread:22548 [wandb_init.py:init():560] calling init triggers
+2024-06-18 11:56:23,650 INFO    MainThread:22548 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-18 11:56:23,650 INFO    MainThread:22548 [wandb_init.py:init():610] starting backend
+2024-06-18 11:56:23,650 INFO    MainThread:22548 [wandb_init.py:init():614] setting up manager
+2024-06-18 11:56:23,654 INFO    MainThread:22548 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-18 11:56:23,654 INFO    MainThread:22548 [wandb_init.py:init():622] backend started and connected
+2024-06-18 11:56:23,659 INFO    MainThread:22548 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-06-18 11:56:23,664 INFO    MainThread:22548 [wandb_init.py:init():711] updated telemetry
+2024-06-18 11:56:23,686 INFO    MainThread:22548 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-18 11:56:24,263 ERROR   MainThread:22548 [wandb_init.py:init():770] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-06-18 11:56:24,263 ERROR   MainThread:22548 [wandb_init.py:init():1181] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/harsh/anaconda3/envs/unet_env/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1171, in init
+    return wi.init()
+  File "/home/harsh/anaconda3/envs/unet_env/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2024-06-18 12:11:58,618 INFO    MainThread:22548 [wandb_settings.py:_apply_login():1911] Applying login settings: {}
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Current SDK version is 0.17.2
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Configure stats pid to 22548
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Loading settings from /home/harsh/.config/wandb/settings
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Loading settings from /home/harsh/Downloads/PROJECTS/road_detection_unet/wandb/settings
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_init.py:_log_setup():520] Logging user logs to /home/harsh/Downloads/PROJECTS/road_detection_unet/wandb/run-20240618_121158-x3cfap06/logs/debug.log
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_init.py:_log_setup():521] Logging internal logs to /home/harsh/Downloads/PROJECTS/road_detection_unet/wandb/run-20240618_121158-x3cfap06/logs/debug-internal.log
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_init.py:init():560] calling init triggers
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_init.py:init():610] starting backend
+2024-06-18 12:11:58,621 INFO    MainThread:22548 [wandb_init.py:init():614] setting up manager
+2024-06-18 12:11:58,623 INFO    MainThread:22548 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-18 12:11:58,624 INFO    MainThread:22548 [wandb_init.py:init():622] backend started and connected
+2024-06-18 12:11:58,629 INFO    MainThread:22548 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-06-18 12:11:58,629 INFO    MainThread:22548 [wandb_init.py:init():711] updated telemetry
+2024-06-18 12:11:58,648 INFO    MainThread:22548 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-18 12:13:28,665 ERROR   MainThread:22548 [wandb_init.py:init():770] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-06-18 12:13:28,665 ERROR   MainThread:22548 [wandb_init.py:init():1181] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/harsh/anaconda3/envs/unet_env/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1171, in init
+    return wi.init()
+  File "/home/harsh/anaconda3/envs/unet_env/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-06-18 12:13:41,197 WARNING MsgRouterThr:22548 [router.py:message_loop():77] message_loop has been closed
+2024-06-18 12:13:41,197 WARNING MsgRouterThr:22548 [router.py:message_loop():77] message_loop has been closed

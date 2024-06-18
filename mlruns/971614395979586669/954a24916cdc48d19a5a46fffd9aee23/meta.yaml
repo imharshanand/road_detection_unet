@@ -1,0 +1,15 @@
+artifact_uri: file:///home/harsh/Downloads/PROJECTS/road_detection_unet/mlruns/971614395979586669/954a24916cdc48d19a5a46fffd9aee23/artifacts
+end_time: 1718691276118
+entry_point_name: ''
+experiment_id: '971614395979586669'
+lifecycle_stage: active
+run_id: 954a24916cdc48d19a5a46fffd9aee23
+run_name: mysterious-ray-223
+run_uuid: 954a24916cdc48d19a5a46fffd9aee23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718691211204
+status: 3
+tags: []
+user_id: harsh
